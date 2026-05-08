@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍔 Quiosco Next - Pedidos en Tiempo Real
 
-## Getting Started
+Una aplicación de nivel empresarial para la gestión de pedidos de comida rápida, construida con **Next.js**. Permite a los clientes navegar por categorías, armar sus pedidos y enviarlos directamente a la cocina, integrando una base de datos relacional y una interfaz de alta velocidad.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologías Core
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js (App Router)**: Framework principal para una experiencia de usuario optimizada y SEO friendly.
+- **TypeScript**: Tipado estático para un código robusto y mantenible.
+- **Prisma ORM**: Para la gestión y modelado de la base de datos PostgreSQL.
+- **Tailwind CSS**: Estilizado moderno, responsivo y de alto rendimiento.
+- **Zustand**: Gestión de estado global para el carrito de pedidos.
+- **SWR / React Query**: (Ajustar según uses) Para la actualización de datos en tiempo real (Panel de Cocina).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Funcionalidades Destacadas
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Navegación por Categorías:** Sistema de pestañas dinámico para explorar diferentes tipos de comida.
+- **Gestión de Pedidos:** Carrito de compras intuitivo con opción de modificar cantidades y personalizar el pedido.
+- **Panel de Administración / Cocina:** Interfaz dedicada para visualizar pedidos pendientes y marcarlos como completados.
+- **Validación de Formularios:** Asegura que los pedidos contengan toda la información necesaria antes de ser procesados.
+- **Sincronización con DB:** Persistencia real de categorías, productos y órdenes utilizando PostgreSQL.
 
-## Learn More
+## 🛠️ Instalación y Configuración
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/rjracer007/quiosco-next-app.git](https://github.com/rjracer007/quiosco-next-app.git)
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
